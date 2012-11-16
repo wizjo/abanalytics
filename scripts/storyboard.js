@@ -20,4 +20,9 @@ $.getJSON(App.endpoints.staging_champions, function(resp) {
   text.paragraphStyle.justification = 'center';
   text.characterStyle.fontSize = 20;
   text.fillColor = 'white';
+
+  function onResize(event) {
+    // Whenever the window is resized, recenter the path:
+    path.position = view.center;
+  }
 });
