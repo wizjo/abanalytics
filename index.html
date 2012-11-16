@@ -1,13 +1,11 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <title>CA Angry Birds</title>
+    <title>A/B Analytics</title>
     <meta content="text/html; charset=UTF-8" http-quiv="Content-Type">
     <link href="stylesheets/bootmetro/bootstrap.css" media="all" rel="stylesheet" type="text/css">
-    <link href="stylesheets/bootmetro/bootstrap-responsive.css" media="all" rel="stylesheet" type="text/css">
     <link href="stylesheets/bootmetro/bootmetro.css" media="all" rel="stylesheet" type="text/css">
     <link href="stylesheets/bootmetro/icomoon.css" media="all" rel="stylesheet" type="text/css">
-    <link href="stylesheets/font.css" media="all" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="lib/jquery-1.8.2.min.js"></script>
     <script type="text/javascript" src="lib/handlebars-1.0.rc.1.js"></script>
     <script type="text/javascript" src="lib/paper.js"></script>
@@ -20,6 +18,9 @@
 
   <header id="nav-bar" class="container-fluid">
     <div class="row-fluid">
+      <div class="pull-left">
+        <h2>"Customer Analytics should exactly be like Angry Birds."</h2>
+      </div>
       <div id="top-info" class="pull-right">
         <script id="greeting" type="text/x-handlebars-template">
         <h3 style="margin-bottom: 10px;">Welcome, {{full_name}}</h3>
@@ -31,6 +32,7 @@
 
   <div class="container-fluid">
     <span id="yammer-login"></span>
+    <span id="spinner"></span>
     <!-- OMG paperscript must go before canvas tag -->
     <script type="text/paperscript" src="scripts/storyboard.js" canvas="storyboard"></script>
     <canvas id="storyboard" resize></canvas>

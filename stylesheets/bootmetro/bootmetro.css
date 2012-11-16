@@ -11,11 +11,12 @@ body {
    padding-top: 24px;
    padding-bottom: 88px;
    position: relative;
-   font-family: "Open Sans",Arial,Helvetica,Sans-Serif;
+  /* font-family: "Open Sans",Arial,Helvetica,Sans-Serif; */
+   font-family: "Segoe UI", "Segoe WP", "Helvetica Neue", sans-serif;
    font-weight: 300;
    font-size: 11px;
+   color: #333;
 }
-
 
 .clearfix:after {
    content: ".";
@@ -2295,3 +2296,4 @@ Responsive Media Queries
    }
 
 }
+

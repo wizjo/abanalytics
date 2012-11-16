@@ -11,7 +11,7 @@ App.endpoints = App.endpoints || {
   msft_champions: "http://analytics.int.yammer.com/queries/535/executions/56834.json",
 
 // Network champions on yammer staging
-  staging_champions: "http://stageanalytics.int.yammer.com/queries/33/executions/1648.json",
+  staging_champions: "http://stageanalytics.int.yammer.com/queries/53/executions/1646.json",
 
 // Thread stats
   thread: function(thread_id) {
