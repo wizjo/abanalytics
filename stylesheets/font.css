@@ -1,0 +1,23 @@
+/* Dip the original bootmetro with a bit homemade guacamole, 
+ * because we have unique taste in styles and, 
+ * we have premium icomoon font library.
+ */
+
+h1,h2,h3,h4,h5,h6,table {
+  font-family: "Segoe UI", "Segoe WP", "Helvetica Neue", sans-serif;
+}
+
+/* customize back button */
+.win-backbutton::before {
+  font-weight: normal;
+  font-family: 'IcoMoon';
+  content: "k";
+  vertical-align: 24%;
+}
+
+/* customize caret */
+.caret::after {
+  content: "i";
+}
+
+.win-commandimage { margin-bottom: 4px }
