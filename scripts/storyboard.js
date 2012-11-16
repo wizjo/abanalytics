@@ -1,4 +1,4 @@
-$.getJSON(App.endpoints.staging_champions, function(resp) {
+$.getJSON(App.endpoints.current, function(resp) {
   //console.log(resp);
   App.data = App.data || {};
   App.data.champions = resp;
