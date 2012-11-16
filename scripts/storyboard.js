@@ -70,10 +70,11 @@ function onResize(event) {
 }
 
 function onFrame(event) {
+  //if(!App.animating) { return }
   App.circlesGroup.children.forEach(function(d, i) {
     var destination = new Point(d.bound, d.position.y);
 
     var vector = destination - d.position;
-    d.position += vector / 30;
+    d.position += vector / 600;
   });
 }
