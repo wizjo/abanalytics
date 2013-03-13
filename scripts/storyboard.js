@@ -66,11 +66,14 @@ $.getJSON("data/staging_champions.json", function(resp) {
 });
 
 function onResize(event) {
+  if(App.cirlesGroup === undefined) {
+    return;
+  }
   //path.position = view.center;
 }
 
 function onFrame(event) {
-  //if(!App.animating) { return }
+  if(App.circlesGroup === undefined) { return }
   App.circlesGroup.children.forEach(function(d, i) {
     var destination = new Point(d.bound, d.position.y);
 
