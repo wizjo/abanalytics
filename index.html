@@ -13,9 +13,6 @@
   </head>
   <body>
 
-  <script type="text/javascript" data-app-id="TvYDhcTzTPco3DYkDFtDVw" src="https://assets.staging.yammer.com/platform/yam.js"></script>
-  <script type="text/javascript" src="scripts/login_button.js"></script>
-
   <header id="nav-bar" class="container-fluid">
     <div class="row-fluid">
       <div class="pull-left">
@@ -30,13 +27,16 @@
     </div>
   </header>
 
-  <div class="container-fluid">
+  <div class="container-fluid" id="paper-storyboard">
     <span id="yammer-login"></span>
     <span id="spinner"></span>
     <!-- OMG paperscript must go before canvas tag -->
-    <script type="text/paperscript" src="scripts/storyboard.js" canvas="storyboard"></script>
-    <canvas id="storyboard" resize></canvas>
+    <!-- script type="text/paperscript" src="scripts/storyboard.js" canvas="storyboard"></script>
+    <canvas id="storyboard" resize></canvas -->
   </div>
+
+  <script type="text/javascript" data-app-id="TvYDhcTzTPco3DYkDFtDVw" src="https://assets.staging.yammer.com/platform/yam.js"></script>
+  <script type="text/javascript" src="scripts/login_button.js"></script>
 
   </body>
 </html>

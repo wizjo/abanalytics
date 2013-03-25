@@ -50,6 +50,9 @@ yam.connect.loginButton('#yammer-login', function (resp) {
       var result = template(App.user);
       $("#top-info").html(result);
 
+      $('#paper-storyboard').append('\
+        <script type="text/javascript text/paperscript" src="scripts/storyboard.js" canvas="storyboard"></script>\
+        <canvas id="storyboard" resize></canvas>');
     }
   }
 });
